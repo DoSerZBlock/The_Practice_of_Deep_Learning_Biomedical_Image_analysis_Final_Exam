@@ -14,7 +14,9 @@ dependencies = [
     "ipykernel (>=6.29.5,<7.0.0)",
     "tensorflow (>=2.19.0,<3.0.0)",
     "matplotlib (>=3.10.3,<4.0.0)",
-    "scikit-learn (>=1.6.1,<2.0.0)"
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)"
 ]
 
 
