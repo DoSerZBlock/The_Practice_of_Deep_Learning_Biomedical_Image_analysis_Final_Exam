@@ -9,9 +9,9 @@ import numpy as np
 
 # ── 全域設定 ─────────────────────────────────────────────
 DATA_DIR     = './perplexity/dataset'
-BATCH_SIZE   = 16
+BATCH_SIZE   = 32
 NUM_EPOCHS   = 200
-LR           = 1e-3
+LR           = 1e-5
 IMG_SIZE     = 224
 SEED         = 42
 DEVICE       = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -151,7 +151,7 @@ def main():
         plt.plot(val_loss_hist, label='Val')
         plt.title(net.__class__.__name__)
         plt.xlabel('Epoch'); plt.ylabel('Loss'); plt.legend()
-        plt.savefig(f'loss_{net.__class__.__name__}.png')
+        plt.savefig(f'/perplexity/loss_{net.__class__.__name__}.png')
         #plt.show()
         
 
