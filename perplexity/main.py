@@ -10,7 +10,7 @@ import numpy as np
 # ── 全域設定 ─────────────────────────────────────────────
 DATA_DIR     = './perplexity/dataset'
 BATCH_SIZE   = 16
-NUM_EPOCHS   = 50
+NUM_EPOCHS   = 200
 LR           = 1e-3
 IMG_SIZE     = 224
 SEED         = 42
