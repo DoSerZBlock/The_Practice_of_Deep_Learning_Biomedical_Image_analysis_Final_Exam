@@ -151,7 +151,7 @@ def main():
         plt.plot(val_loss_hist, label='Val')
         plt.title(net.__class__.__name__)
         plt.xlabel('Epoch'); plt.ylabel('Loss'); plt.legend()
-        plt.savefig(f'/perplexity/loss_{net.__class__.__name__}.png')
+        plt.savefig(f'./perplexity/loss_{net.__class__.__name__}.png')
         #plt.show()
         
 
