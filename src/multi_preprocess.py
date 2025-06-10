@@ -68,7 +68,7 @@ from tensorflow.keras.layers import (
 from tensorflow.keras.models import Model
 
 # ╭──────────────────────────── Paths & constants ─────────────────────────────╮
-DATASET_SLUG = "jarintasnim090/busi-corrected"  # verified working
+DATASET_SLUG = "mrmaazoo/breast-ultrasound-classification"  # verified working
 ARCHIVES_DIR = Path("archives")
 DATA_DIR = Path("data")
 OUTPUTS_DIR = Path("outputs")
