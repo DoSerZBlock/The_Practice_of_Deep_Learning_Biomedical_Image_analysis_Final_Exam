@@ -28,7 +28,7 @@ os.makedirs(CSV_DIR, exist_ok=True)
 CONFIG = {
     'data_dir': DATA_DIR,
     'batch_size': 16,
-    'num_epochs': 50,
+    'num_epochs': 200,
     'learning_rate': 1e-3,
     'weight_decay': 1e-4,
     'patience': 10
